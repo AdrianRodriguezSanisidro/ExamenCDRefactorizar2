@@ -1,13 +1,13 @@
 package factorial;
 
 public class Factorial {
-
+       
     public static void main(String[] args) {
-
-        int j;
-        int f;
-
-        j = 8;
+         calcularF();
+    }
+    public static void calcularF(){
+         int j=8;
+         int f;
 
         int i;
         if (j == 0) {
@@ -17,10 +17,7 @@ public class Factorial {
             for (i = j; i >= 1; i--) {
                 f = f * i;
             }
-        }
-
-        System.out.println(f);
-
     }
-
+        System.out.println(f);
+}
 }
